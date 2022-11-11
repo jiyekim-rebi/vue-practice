@@ -5,7 +5,6 @@
 <script>
 export default {
 
-  //arrow function
   /*
   data: () => ({
     title: 'binding'
@@ -14,7 +13,6 @@ export default {
 
   data () {
     return {
-      //아 거참 겁나 까칠하네 ㅡㅡㅋㅋㅋㅋㅋ
       title: 'binding'
     }
   }

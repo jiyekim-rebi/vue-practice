@@ -19,6 +19,16 @@ const routes = [
     path: '/binding',
     name: 'binding',
     component: () => import('@/views/DataBinding.vue')
+  },
+  {
+    path: '/bindingList',
+    name: 'bindingList',
+    component: () => import('@/views/DataBindingList.vue')
+  },
+  {
+    path: '/nestedComponent',
+    name: 'nestedComponent',
+    component: () => import('@/views/NestedComponent')
   }
 ]
 
