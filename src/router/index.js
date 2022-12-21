@@ -29,6 +29,31 @@ const routes = [
     path: '/nestedComponent',
     name: 'nestedComponent',
     component: () => import('@/views/NestedComponent')
+  },
+  {
+    path: '/test/app_bar_first',
+    name: 'app_bar_first',
+    component: () => import('@/components/test/app-bar-first')
+  },
+  {
+    path: '/test/wireframe_inbox',
+    name: 'wireframe_inbox',
+    component: () => import('@/components/test/wireframe-inbox')
+  },
+  {
+    path: '/test/mdn_detail',
+    name: 'mdn_detail',
+    component: () => import('@/components/test/mdn-detail')
+  },
+  {
+    path: '/test/navigation_bar',
+    name: 'navigation_bar',
+    component: () => import('@/components/test/navigation-bar')
+  },
+  {
+    path: 'test/component_test',
+    name: 'component_test',
+    component: () => import('@/components/test/component-test.vue')
   }
 ]
 
