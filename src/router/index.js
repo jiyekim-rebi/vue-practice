@@ -51,9 +51,14 @@ const routes = [
     component: () => import('@/components/test/navigation-bar')
   },
   {
-    path: 'test/component_test',
+    path: '/test/component_test',
     name: 'component_test',
     component: () => import('@/components/test/component-test.vue')
+  },
+  {
+    path: '/emit/emit_main',
+    name: 'emit_main',
+    component: () => import('@/components/emit/EmitMain.vue')
   }
 ]
 
